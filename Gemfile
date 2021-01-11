@@ -11,5 +11,5 @@ gem 'bootstrap', '~> 5.0.0.beta1'
 gem "rails"
 gem 'sprockets-rails'
 gem 'jquery-rails'
-
 gem "webrick", "~> 1.7"
+gem "neo-hpstr-jekyll-theme"

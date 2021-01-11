@@ -25,3 +25,5 @@ plugins:
 
 sass:
   sass_dir: assets/css
+
+theme: neo-hpstr-jekyll-theme
