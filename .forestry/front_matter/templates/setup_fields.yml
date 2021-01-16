@@ -1,4 +1,18 @@
 ---
 label: setup_fields
 hide_body: true
-fields: []
+fields:
+- name: proevelabel
+  type: boolean
+  label: Prøvelabel
+  description: Her er en tekst der beskriver prøvelabel
+- name: et_tekstfelt_til_indtastning
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Et tekstfelt til indtastning
+  description: Her er tekster der vil være i tekstfeltet<br>
